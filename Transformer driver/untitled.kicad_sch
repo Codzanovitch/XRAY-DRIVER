@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d0178a8c-8e0e-431d-9875-123c47f40a6a")
+	(uuid "7ab18990-6747-496a-b56b-d387b6daa60b")
 	(paper "A4")
 	(lib_symbols)
 	(text_box "THE IGBT MODULE VERSION IS GAL DO NOT BE CONFUSED WHEN YOU SEE A MODULE WITH TWO IGBTS."
