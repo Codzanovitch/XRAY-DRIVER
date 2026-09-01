@@ -10,284 +10,6 @@
 		(company "TECHLIFEZW")
 	)
 	(lib_symbols
-		(symbol "Comparator:LM393"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM393"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp open collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM393_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2060,6 +1782,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 102.87) (xy 237.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa3614a-5f05-4fda-b974-d857a6386b02")
+	)
+	(wire
+		(pts
 			(xy 99.06 135.89) (xy 166.37 135.89)
 		)
 		(stroke
@@ -2130,16 +1862,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.87) (xy 219.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a42022-0652-419c-a438-88edaa42cd40")
-	)
-	(wire
-		(pts
 			(xy 154.94 57.15) (xy 149.86 57.15)
 		)
 		(stroke
@@ -2167,16 +1889,6 @@
 			(type default)
 		)
 		(uuid "3b1696e2-8ee0-4ee2-8d86-ac6a4bd20cc1")
-	)
-	(wire
-		(pts
-			(xy 219.71 102.87) (xy 219.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2a6a95-9331-4b55-afc0-50441b738b07")
 	)
 	(wire
 		(pts
@@ -2220,17 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 86.36) (xy 273.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb0c068-0c69-4f46-a47b-d27e3fd1eca4")
-	)
-	(wire
-		(pts
-			(xy 186.69 81.28) (xy 179.07 81.28)
+			(xy 149.86 80.01) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 179.07 95.25)
+			(xy 121.92 95.25) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 81.28) (xy 179.07 95.25)
+			(xy 135.89 80.01) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2600,13 +2302,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 109.22) (xy 248.92 109.22)
+			(xy 114.3 113.03) (xy 237.49 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb9fa882-c864-4009-9ee4-524d09c588e1")
+		(uuid "ba622ff8-2a32-4084-9840-6da9a56bd087")
 	)
 	(wire
 		(pts
@@ -2710,16 +2412,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 111.76) (xy 264.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12833b2-4f29-4588-a875-0d899a988c0a")
-	)
-	(wire
-		(pts
 			(xy 95.25 45.72) (xy 107.95 45.72)
 		)
 		(stroke
@@ -2750,16 +2442,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 86.36) (xy 273.05 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f727b79e-e962-4cf5-bb77-74be74b993c7")
-	)
-	(wire
-		(pts
 			(xy 58.42 83.82) (xy 58.42 91.44)
 		)
 		(stroke
@@ -2777,16 +2459,6 @@
 			(type default)
 		)
 		(uuid "f9b1f14c-3f93-4d44-8dff-6e267a244748")
-	)
-	(wire
-		(pts
-			(xy 114.3 114.3) (xy 248.92 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f30fbf-8e86-4d5f-a568-ea6ea48af49e")
 	)
 	(wire
 		(pts
@@ -2810,6 +2482,19 @@
 			(justify left bottom)
 		)
 		(uuid "4196dc92-cd37-42ac-9465-38e49e50fcf6")
+	)
+	(label "Current (-)"
+		(at 237.49 113.03 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 46 22 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "582864dd-576e-4d1b-931f-8ec3473c5a12")
 	)
 	(label "Transformer (-)"
 		(at 166.37 121.92 0)
@@ -2850,6 +2535,19 @@
 		)
 		(uuid "c0ef1489-8f28-43f9-8745-cc41c00be2f3")
 	)
+	(label "Current (+)"
+		(at 237.49 102.87 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 46 22 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e13bcee6-0543-4a09-b565-bbcbee525974")
+	)
 	(label "UPS"
 		(at 166.37 135.89 0)
 		(effects
@@ -2862,92 +2560,6 @@
 			(justify left bottom)
 		)
 		(uuid "f487e83c-330a-4d15-a41f-ead1412829ca")
-	)
-	(symbol
-		(lib_id "Comparator:LM393")
-		(at 256.54 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0def9d38-116c-48e3-8b11-9d136c1caa2e")
-		(property "Reference" "U2"
-			(at 256.54 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 256.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 256.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7c7e196-fea1-4eca-a09d-039d6c1ab722")
-		)
-		(pin "3"
-			(uuid "5478544b-5656-4c8b-af75-10cd1d006b60")
-		)
-		(pin "6"
-			(uuid "3819a205-dfa1-4c35-a408-4cad2cdb4e22")
-		)
-		(pin "1"
-			(uuid "8fca136f-345c-40ae-acdd-2f945c042d14")
-		)
-		(pin "5"
-			(uuid "e7a52e6a-6a28-498a-ad71-1f4dffe23096")
-		)
-		(pin "7"
-			(uuid "7a3f79a0-ec62-482e-8e0b-90efbac10dbd")
-		)
-		(pin "8"
-			(uuid "c220b1c2-1964-4cae-90cb-140f7285854d")
-		)
-		(pin "4"
-			(uuid "851c142c-18f6-4b0f-a898-4f6c3c8fd470")
-		)
-		(instances
-			(project ""
-				(path "/efea7640-0212-4c6b-8921-76f5a7157804"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4058,7 +3670,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_PIC18:PIC18F14K50-ESS")
-		(at 224.79 81.28 0)
+		(at 187.96 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4067,7 +3679,7 @@
 		(dnp no)
 		(uuid "c5b1267c-6741-4cbe-811a-d3674e89589d")
 		(property "Reference" "U1"
-			(at 222.6467 59.69 0)
+			(at 185.8167 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +3688,7 @@
 			)
 		)
 		(property "Value" "PIC18F14K50-ESS"
-			(at 222.6467 62.23 0)
+			(at 185.8167 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +3697,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm"
-			(at 224.79 81.28 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +3707,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/41350c.pdf"
-			(at 224.79 78.74 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +3716,7 @@
 			)
 		)
 		(property "Description" "16K Flash, 768 SRAM, 256 EEPROM, USB, nanoWatt XLP, SSOP20"
-			(at 224.79 81.28 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,8 +4072,50 @@
 		)
 	)
 	(sheet
-		(at 241.3 151.13)
-		(size 25.4 8.89)
+		(at 194.31 143.51)
+		(size 38.1 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "151819ef-820c-49e0-a24e-96f0bbce786f")
+		(property "Sheetname" "Current Voltage measurement"
+			(at 194.31 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current voltage.kicad_sch"
+			(at 194.31 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Transformer driver"
+				(path "/efea7640-0212-4c6b-8921-76f5a7157804"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 142.24)
+		(size 39.37 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4476,7 +4130,7 @@
 		)
 		(uuid "3315a539-994e-4780-bc1e-211972c7cec6")
 		(property "Sheetname" "Important notes"
-			(at 241.3 150.4184 0)
+			(at 241.3 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)

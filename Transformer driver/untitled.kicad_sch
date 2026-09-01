@@ -8,7 +8,7 @@
 	(text_box "THE IGBT MODULE VERSION IS GAL DO NOT BE CONFUSED WHEN YOU SEE A MODULE WITH TWO IGBTS."
 		(exclude_from_sim no)
 		(at 17.78 19.05 0)
-		(size 201.93 11.43)
+		(size 224.79 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -20,9 +20,33 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 			(justify left top)
 		)
 		(uuid "0b6521c6-a5f0-452e-880d-6084dd3d3bd6")
+	)
+	(text_box "From the Op amp the signal must go to a latch like the IC on the channel card."
+		(exclude_from_sim no)
+		(at 17.78 36.83 0)
+		(size 223.52 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c9fe7d5c-2aa6-40f4-a7a1-60503ce28094")
 	)
 )
