@@ -1802,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 181.61) (xy 78.74 181.61)
+			(xy 52.07 181.61) (xy 60.96 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 176.53) (xy 68.58 176.53)
+			(xy 52.07 176.53) (xy 62.23 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2517,7 +2517,7 @@
 		(uuid "582864dd-576e-4d1b-931f-8ec3473c5a12")
 	)
 	(label "Current (-)"
-		(at 78.74 181.61 0)
+		(at 60.96 181.61 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2569,7 +2569,7 @@
 		(uuid "c0ef1489-8f28-43f9-8745-cc41c00be2f3")
 	)
 	(label "Current (+)"
-		(at 68.58 176.53 0)
+		(at 62.23 176.53 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4180,7 +4180,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 170.18)
+		(at 96.52 167.64)
 		(size 39.37 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4196,7 @@
 		)
 		(uuid "3315a539-994e-4780-bc1e-211972c7cec6")
 		(property "Sheetname" "Important notes"
-			(at 124.46 169.4684 0)
+			(at 96.52 166.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4205,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 124.46 188.5446 0)
+			(at 96.52 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
