@@ -5,6 +5,30 @@
 	(uuid "7ab18990-6747-496a-b56b-d387b6daa60b")
 	(paper "A4")
 	(lib_symbols)
+	(text "R13=200mOhm shunt resistor"
+		(exclude_from_sim no)
+		(at 51.054 63.754 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "62793a5f-91b7-4230-aecb-3e15235924ea")
+	)
+	(text "Fron when the signal comes from the shunt resistor it goes \nthough a lot of curcuitry that might be there for protection\n because zener diodes are there."
+		(exclude_from_sim no)
+		(at 78.74 81.026 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "eb763c72-9305-46ee-a764-f2eeac858cf4")
+	)
 	(text_box "THE IGBT MODULE VERSION IS GAL DO NOT BE CONFUSED WHEN YOU SEE A MODULE WITH TWO IGBTS."
 		(exclude_from_sim no)
 		(at 17.78 19.05 0)
