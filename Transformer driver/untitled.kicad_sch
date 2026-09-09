@@ -5,6 +5,18 @@
 	(uuid "7ab18990-6747-496a-b56b-d387b6daa60b")
 	(paper "A4")
 	(lib_symbols)
+	(text "All the resistor on a potential divider for input\n comparators are to be potentiometers\n to adjust the level at which the alarms are triggered."
+		(exclude_from_sim no)
+		(at 70.358 101.346 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0845299a-dec3-472a-8075-94b0d7c79d89")
+	)
 	(text "R13=200mOhm shunt resistor"
 		(exclude_from_sim no)
 		(at 51.054 63.754 0)
@@ -22,6 +34,7 @@
 		(at 78.74 81.026 0)
 		(effects
 			(font
+				(face "KiCad Font")
 				(size 2.54 2.54)
 				(thickness 0.254)
 				(bold yes)

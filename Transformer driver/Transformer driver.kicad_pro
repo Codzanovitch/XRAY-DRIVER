@@ -625,6 +625,10 @@
     [
       "76a9daff-7da4-4c67-8864-b884e631345e",
       "MA Stabilazation"
+    ],
+    [
+      "3be7fc2e-0035-41d1-9bf6-b9a2df59911c",
+      "mA alarm indicator"
     ]
   ],
   "text_variables": {}
