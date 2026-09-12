@@ -5,6 +5,18 @@
 	(uuid "7ab18990-6747-496a-b56b-d387b6daa60b")
 	(paper "A4")
 	(lib_symbols)
+	(text "lIST iCS THAT WORK ON 5v AND THOSE THAT WORK ON 15v"
+		(exclude_from_sim no)
+		(at 76.2 131.826 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "000360d6-cfb1-45b2-97c9-20617b14dc3c")
+	)
 	(text "All the resistor on a potential divider for input\n comparators are to be potentiometers\n to adjust the level at which the alarms are triggered."
 		(exclude_from_sim no)
 		(at 70.358 101.346 0)
@@ -16,6 +28,18 @@
 			)
 		)
 		(uuid "0845299a-dec3-472a-8075-94b0d7c79d89")
+	)
+	(text "The primary shunt detects overcurrent due to core saturation.\nThe output will detect overcurrent due to faulty XRT."
+		(exclude_from_sim no)
+		(at 78.74 119.126 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "21556115-0662-414d-9065-769c6385d9ca")
 	)
 	(text "R13=200mOhm shunt resistor"
 		(exclude_from_sim no)
@@ -34,7 +58,6 @@
 		(at 78.74 81.026 0)
 		(effects
 			(font
-				(face "KiCad Font")
 				(size 2.54 2.54)
 				(thickness 0.254)
 				(bold yes)
